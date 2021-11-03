@@ -1,0 +1,248 @@
+﻿/*font-family: 'Lato', sans-serif;
+font-family: 'Nunito Sans', sans-serif;*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.section-title {
+	background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+.section-title__container {
+	width: 1180px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-title-container__text {
+	flex: 0 0 630px;
+	padding: 170px 0 170px 0;
+}
+.section-title-container-text__work {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 38px;
+	color: #FBB731;
+	display: block;
+	margin-bottom: 14px;
+}
+
+.section-title-container-text__title {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 800;
+	font-size: 120px;
+	line-height: 140px;
+	color: #FAF9F9;
+	text-transform: uppercase;
+	margin-bottom: 36px;
+}
+
+.section-title-container-text__order-burger {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 27px;
+	color: #DEDEDE;
+	margin-bottom: 42px;
+}
+
+.section-title-container-text__order {
+	color: #1E2F40;
+	background: #FBB731;
+	padding: 20px 45px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.section-title__visual {
+	flex-grow: 1;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.section-title-visual__bg {
+	width: 432px;
+	height: 100%;
+	background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+.section-title-visual__burger {
+	width: 798px;
+	position: absolute;
+	right: -168px;
+}
+
+.section-sale {
+	padding: 79px 0 84px 0;
+}
+
+.section-sale__container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1180px;
+	padding: 100px 0 100px 0;
+}
+.section-sale-container__left {
+	background-image: url(./image/left_icon.png);
+	background-size: 100%;
+	height: 395px;
+	width: 580px;
+	color: #FFF;
+}
+
+.section-sale-container-left__left-section {
+	padding: 20% 0 0 10%;
+}
+
+.section-sale-container-left__sale {
+	color: #FFF;
+	background: #F37335;
+	padding: 5px 23px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	text-decoration: none;
+	border-radius: 14px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.section-sale-container-left__twenty {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 900;
+	font-size: 60px;
+	margin-bottom: 11px;
+}
+
+.section-sale-container-left__sale-birthday {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	width: 405px;
+	line-height: 24px;
+}
+
+.section-sale-container__right {
+	background-image: url(./image/right_icon.png);
+	background-size: 100%;
+	height: 395px;
+	width: 580px;
+}
+
+.section-sale-container-right__right-section {
+	padding: 19% 0 0 10%;
+}
+
+.section-sale-container-right__free {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+	color: #FFF;
+	margin-bottom: 16px;
+}
+
+.section-sale-container-right__shipping {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FAF9F9;
+	line-height: 24px;
+	margin-bottom: 15px;
+	width: 300px;
+}
+
+.section-sale-container-right__to-order {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #1E2F40;
+	background: #FBB731;
+	padding: 19px 40px;
+	text-decoration: none;
+	border-radius: 5px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.footer {
+	background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+	color: white;
+}
+
+.footer__infomation {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 1180px;
+	padding: 116px 0 100px 0;
+}
+
+.footer-infomation__burger-icon {
+	height: 100%;
+	width: 63px;
+}
+
+.footer-infomation-basic-link__links {	
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	margin-bottom: 23px;
+}
+
+.footer-infomation-basic-link__link-menu {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	display: block;
+	color: #FFF;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+.footer-infomation-work-time__basic-information {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	margin-bottom: 19px;
+}
+
+.footer-infomation-basic-link__link-menu, .footer-infomation-work-time__days, .footer-infomation-work-time__hours, .footer-infomation-work-time__address, .footer-infomation-work-time__moscow {
+	font-size: 15px;
+}
+
+.footer-infomation-work-time__times, .footer-infomation-work-time__address {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+.footer-infomation-work-time__days, .footer-infomation-work-time__hours, .footer-infomation-work-time__moscow {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.footer-infomation-work-time__times, .footer-infomation-work-time__days, .footer-infomation-work-time__address {
+	margin-bottom: 5px;
+}
+
+.footer-infomation-work-time__hours {
+	margin-bottom: 25px;
+}
+
+.footer-infomation__phone {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 800;
+	width: 200px;
+	font-size: 20px;
+	color: #FBB731;
+}
